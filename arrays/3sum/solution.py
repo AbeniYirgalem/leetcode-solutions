@@ -25,3 +25,8 @@ class Solution:
                 else:
                     right -= 1
         return result
+
+if __name__ == "__main__":
+    sol = Solution()
+    print(sol.threeSum([-1, 0, 1, 2, -1, -4]))
+    print(sol.threeSum([0, 1, 1]))
