@@ -13,3 +13,8 @@ class Solution:
             else:
                 right -= 1
         return best
+
+if __name__ == "__main__":
+    sol = Solution()
+    print(sol.maxArea([1, 8, 6, 2, 5, 4, 8, 3, 7]))
+    print(sol.maxArea([1, 1]))
