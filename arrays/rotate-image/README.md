@@ -8,6 +8,11 @@ Medium
 
 Rotate an n x n matrix 90 degrees clockwise in-place.
 
+## Constraints
+
+- 1 <= n <= 20
+- -1000 <= matrix[i][j] <= 1000
+
 ## Example Input/Output
 
 Input: matrix = [[1,2,3],[4,5,6],[7,8,9]]
