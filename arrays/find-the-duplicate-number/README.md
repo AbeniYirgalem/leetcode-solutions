@@ -8,6 +8,12 @@ Medium
 
 Given an array of n + 1 integers where each integer is between 1 and n, find the duplicate number without modifying the array and using constant extra space.
 
+## Constraints
+
+- 1 <= n <= 10^5
+- nums.length == n + 1
+- 1 <= nums[i] <= n
+
 ## Example Input/Output
 
 Input: nums = [1, 3, 4, 2, 2]
